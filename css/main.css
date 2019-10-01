@@ -1,0 +1,43 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+#container{
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 400px;
+}
+
+#title {
+    background-color: #9DC284;
+    justify-content: center;
+    margin: 0;
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input, .addSkill {
+    border: 5px solid  #9DC284;
+    color: #9DC284;
+    width: 250 px;
+}
+
+#input-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
