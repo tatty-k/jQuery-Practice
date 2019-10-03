@@ -15,6 +15,9 @@ body {
     background-color: blanchedalmond;
     height: 300px;
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #title {
@@ -29,10 +32,17 @@ body {
     align-items: center;
 }
 
-input, .addSkill {
-    border: 5px solid  #9DC284;
+input {
+    border: 3px solid  #9DC284;
+    color:black;
+}
+
+#add-skill{
     color: #9DC284;
-    width: 250 px;
+    background-color: white;
+    border: 3px solid #9DC284;
+    padding: 9px;
+    font-weight: bold;
 }
 
 #input-row {
@@ -40,4 +50,8 @@ input, .addSkill {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
+}
+
+#table{
+    border: 3px solid  #9DC284;
 }
